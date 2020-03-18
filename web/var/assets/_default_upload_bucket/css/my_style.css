@@ -1,0 +1,139 @@
+body{
+    direction: ltr;
+    background-image: url("../img/bg.jpg");
+    background-attachment: fixed;
+    width: 100%;
+}
+.container{
+    margin-top: 23px;
+    margin-bottom: 20px;
+}
+.w_100{
+    width: 100%;
+}
+.mcenter{
+    margin-right: auto;
+    margin-left: auto;
+}
+.NewsDiv{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(210, 238, 231, 0.70);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: #ff0c00 solid 3px;
+    border-top: #ff0c00 solid 3px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.header{
+    background-image: url("../img/he.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 180px;
+    margin-top: 20px;
+}
+.NewsImg{
+    height: 140px;
+    width: 200px;
+    border-radius: 16px;
+}
+.news_link{
+    color: #000000 !important;
+    font-size: 28px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.Teaser{
+    color: #000000;
+    font-size: 18px;
+    background-color: rgba(255,255,255,0.70);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.Text{
+    margin-top: 10px;
+    color: #000000;
+    font-size: 18px;
+    background-color: #fff9ff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-indent: 16px;
+    border-right: 15px;
+}
+.NewsImgDetail{
+    height: 240px;
+    width: 200px;
+    border-radius: 20px !important;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.TeaserDetail{
+    color: #344d8c;
+    font-size: 18px;
+    margin-top: 14px;
+    margin-bottom: 22px;
+    padding-bottom: 12px;
+    border-bottom: #000b8c dotted 1px;
+    background-color: rgba(255, 255, 255, 0.90);
+    padding-top: 10px;
+    border-right: 15px;
+    text-indent: 16px;
+}
+.GalleryPlace{
+    margin-top: 10px;
+    border-radius: 12px;
+    border:#ff0400 solid 1px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+}
+.GalleryPlace img{
+    cursor: pointer;
+    border-radius: 14px;
+    border: #1a1a1a solid 1px;
+    height: 180px;
+    margin-top: 4px;
+}
+.GalleryPlace img:hover{
+    cursor: pointer;
+    border-radius: 14px;
+    border: #ff0400 solid 1px;
+}
+/*----------------*/
+ul.mnu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+ul.mnu li {
+    float: left;
+}
+
+ul.mnu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.mnu li a:hover:not(.active) {
+    background-color: #111;
+}
+
+ul.mnu .active {
+    background-color: #4CAF50;
+}
+/*----------------*/
